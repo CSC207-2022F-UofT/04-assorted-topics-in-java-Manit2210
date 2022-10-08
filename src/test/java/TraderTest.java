@@ -23,11 +23,11 @@ public class TraderTest {
     }
 
 
-    @Test(timeout = 50)
-    public void TestAddToWishlist() {
-        trader.addToWishlist(new Horse());
-        assertEquals(1, trader.getWishlist().size());
-    }
+//    @Test(timeout = 50)
+//    public void TestAddToWishlist() {
+//        trader.addToWishlist(new Horse());
+//        assertEquals(1, trader.getWishlist().size());
+//    }
 
     @Test(timeout = 50)
     public void TestGetSellingPrice() {
